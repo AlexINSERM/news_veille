@@ -9,7 +9,7 @@ from datetime import datetime, timedelta
 
 # Méthode 1 : Variables d'environnement (Recommandé pour GitHub)
 # Si ces variables ne sont pas définies, le script utilise les valeurs par défaut
-PUSHBULLET_KEY = os.environ.get('PUSHBULLET_KEY', 'INSERER_VOTRE_KEY_ICI')
+PUSHBULLET_KEY = os.environ.get('PUSHBULLET_KEY', 'o.UlyBqVIMmt3xLOvaBj7hAlZ1MTHfF0Kb')
 QUERY = os.environ.get('QUERY', 'Paul Vaillant Couturier Villejuif')
 
 # URL du flux RSS Google News
